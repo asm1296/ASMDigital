@@ -126,6 +126,15 @@ h4{
     margin: 20px 0;
     display: flex;
 }
+/* .projects a:nth-child(2){
+    padding: 0 12%;
+} */
+.projects a:nth-child(2) *{
+    margin: 10px 10%;
+    max-width: 79%;
+    /* align-self: center; */
+    text-align: center;
+}
 .projects a *{
     margin: 0 20px;
     max-width: 40%;
@@ -228,7 +237,8 @@ footer img{
         margin: 10px 20%;
     }
     .projects a:last-child{
-        grid-column: 3/7;
+        /* grid-column: 3/7; */
+        padding-top: 55px;
     }
     .projects a img{
         width: 80%;
