@@ -160,7 +160,7 @@ h4{
     grid-column: span 4;
     text-align: center;
 }
-#skills li .react-native {
+#skills li.react-native {
   grid-column: 3/span 4; /* spans columns 3 → 6 */
   justify-self: center;    /* center horizontally within spanned area */
 }
@@ -322,7 +322,7 @@ footer img{
     #skills li{
         grid-column: span 2;
     }
-    #skills li .react-native {
+    #skills li.react-native {
       grid-column: 3/span 2; /* spans columns 3 → 6 */
       justify-self: center;    /* center horizontally within spanned area */
     }
@@ -360,6 +360,7 @@ footer img{
     }
 
 }
+
 
 
 
