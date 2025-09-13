@@ -323,6 +323,10 @@ footer img{
     #skills li{
         grid-column: span 2;
     }
+    .react-native {
+      grid-column: 3 / span 4; /* spans columns 3 → 6 */
+      justify-self: center;    /* center horizontally within spanned area */
+    }
     #contact form{
         width: 80%;
         max-width: 600px;
@@ -357,5 +361,6 @@ footer img{
     }
 
 }
+
 
 
