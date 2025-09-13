@@ -323,7 +323,7 @@ footer img{
         grid-column: span 2;
     }
     #skills li.react-native {
-      grid-column: 3/span 2; /* spans columns 3 → 6 */
+      grid-column: 4/span 2; /* spans columns 3 → 6 */
       justify-self: center;    /* center horizontally within spanned area */
     }
     #contact form{
@@ -360,6 +360,7 @@ footer img{
     }
 
 }
+
 
 
 
