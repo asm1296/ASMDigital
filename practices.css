@@ -75,8 +75,11 @@ h4{
     display: grid;
     grid-template-columns: repeat(8,1fr);
     gap: 10px;
-    justify-content: 'center';
-    place-items: 'center';
+}
+
+.react-native {
+  grid-column: 3 / span 4; /* spans columns 3 → 6 */
+  justify-self: center;    /* center horizontally within spanned area */
 }
 
 .sitenav{
@@ -354,4 +357,5 @@ footer img{
     }
 
 }
+
 
