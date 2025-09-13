@@ -76,6 +76,7 @@ h4{
     grid-template-columns: repeat(8,1fr);
     gap: 10px;
     justify-content: 'center';
+    place-items: 'center';
 }
 
 .sitenav{
@@ -353,3 +354,4 @@ footer img{
     }
 
 }
+
